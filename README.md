@@ -4,10 +4,11 @@
 
 Unity (5.x.x) framework for organization and development of any application.
 
-## Features
+## Core Features
 
 - State: Handles all state management in the application, only edit the respective scene for a state and the framework will take care of the rest.
 - Profiles: Provides access to light-weight basic data which is stored relative to a profile. You can choose, create, and manage individual profiles for easier development.
+- Assets: Simple interface to load either Resources, Bundles or Scenes assets. It will object pool resources and bundles, and give utility points to easy asset instantiation.
 - Server (TBD): Simple server management, supports HTTP and Socket servers. You can then interact with a simple interface to make HTTP requests and/or (UDP & TCP) socket communications.
 - Data (TBD): Interactive editor for managing your data collections, they can be then be interacted with at run-time. This allows you to manage heavier data that is stored in cache, and may be saved to disk.
 
